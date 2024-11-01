@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ef05c4b-1b18-43cf-bb2b-50f1824bc8d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BMI-Calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/life-in-weeks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tip-calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-1/.idea/day-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/day-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="7ef05c4b-1b18-43cf-bb2b-50f1824bc8d8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730459925485</updated>
       <workItem from="1730459926984" duration="5353000" />
+      <workItem from="1730479425505" duration="75000" />
     </task>
     <servers />
   </component>
