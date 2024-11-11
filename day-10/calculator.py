@@ -21,6 +21,7 @@ operations = {
     "/": divide
 }
 
+
 def calculator():
     num1 = float(input("What is the first number: "))
     for operation in operations:
@@ -28,9 +29,9 @@ def calculator():
     is_continue = True
 
     while is_continue:
-        num2 = float(input("What is the next number: "))
-
         operation_symbol = input("Pick an operation: ")
+
+        num2 = float(input("What is the next number: "))
 
         calculation_function = operations[operation_symbol]
         answer = calculation_function(num1, num2)
@@ -42,5 +43,6 @@ def calculator():
         else:
             is_continue = False
             calculator()
+
 
 calculator()
