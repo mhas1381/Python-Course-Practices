@@ -1,0 +1,23 @@
+data = [
+    {'name': 'Cristiano Ronaldo', 'followers_count': 600, 'description': 'football player', 'country': 'Portugal'},
+    {'name': 'Lionel Messi', 'followers_count': 470, 'description': 'football player', 'country': 'Argentina'},
+    {'name': 'Selena Gomez', 'followers_count': 430, 'description': 'singer and actress', 'country': 'USA'},
+    {'name': 'Dwayne Johnson', 'followers_count': 410, 'description': 'actor and former wrestler', 'country': 'USA'},
+    {'name': 'Kylie Jenner', 'followers_count': 390, 'description': 'model and entrepreneur', 'country': 'USA'},
+    {'name': 'Kim Kardashian', 'followers_count': 380, 'description': 'media personality and entrepreneur',
+     'country': 'USA'},
+    {'name': 'Ariana Grande', 'followers_count': 370, 'description': 'singer and actress', 'country': 'USA'},
+    {'name': 'Beyoncé', 'followers_count': 360, 'description': 'singer and businesswoman', 'country': 'USA'},
+    {'name': 'Justin Bieber', 'followers_count': 355, 'description': 'singer', 'country': 'Canada'},
+    {'name': 'Taylor Swift', 'followers_count': 345, 'description': 'singer-songwriter', 'country': 'USA'},
+    {'name': 'Virat Kohli', 'followers_count': 340, 'description': 'cricketer', 'country': 'India'},
+    {'name': 'Khloé Kardashian', 'followers_count': 330, 'description': 'media personality', 'country': 'USA'},
+    {'name': 'Nicki Minaj', 'followers_count': 320, 'description': 'rapper and singer', 'country': 'USA'},
+    {'name': 'Jennifer Lopez', 'followers_count': 315, 'description': 'singer and actress', 'country': 'USA'},
+    {'name': 'Shakira', 'followers_count': 310, 'description': 'singer', 'country': 'Colombia'},
+    {'name': 'Miley Cyrus', 'followers_count': 305, 'description': 'singer and actress', 'country': 'USA'},
+    {'name': 'Billie Eilish', 'followers_count': 300, 'description': 'singer', 'country': 'USA'},
+    {'name': 'Katy Perry', 'followers_count': 295, 'description': 'singer', 'country': 'USA'},
+    {'name': 'Zendaya', 'followers_count': 290, 'description': 'actress', 'country': 'USA'},
+    {'name': 'Rihanna', 'followers_count': 285, 'description': 'singer and businesswoman', 'country': 'Barbados'}
+]
