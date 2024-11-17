@@ -1,9 +1,21 @@
-from random import choice
+from random import choice, randint
 from turtle import Turtle, Screen
 
 timmy = Turtle()
-timmy.shape("turtle")
+# timmy.shape("square")
 timmy.color("blue")
+# timmy.colormode(255)
+timmy.speed("fastest")
+colors = ["red" , "blue" , "brown" , "yellow" , "pink"]
+
+
+def generate_random_color():
+    r = randint(255)
+    g = randint(255)
+    b = randint(255)
+    rgb_tuple = (r , g , b)
+    return rgb_tuple
+
 
 ## Draw a Square
 # for _ in range(4):
@@ -29,6 +41,24 @@ timmy.color("blue")
 # for shape_side_n in range(3,11):
 #     draw_shape(shape_side_n)
 
+## Random walk
+# directions = [0, 90, 180, 270]
+# timmy.speed(10)
+# timmy.pensize(10)
+#
+# for _ in range(100):
+#     timmy.color(choice(colors))
+#     timmy.forward(15)
+#     timmy.setheading(choice(directions))
+
+## Draw a Spirograph
+
+angle = 0
+for _ in range(72):
+    timmy.color(choice(colors))
+    timmy.circle(100)
+    timmy.setheading(angle)
+    angle += 5
 
 
 screen = Screen()
