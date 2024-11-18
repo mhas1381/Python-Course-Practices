@@ -8,7 +8,7 @@ from food import Food
 screen = Screen()
 screen.setup(width = 600 , height=600)
 screen.title("Snake Game")
-screen.bgcolor("green")
+screen.bgcolor("green4")
 screen.tracer(0)
 
 snake = Snake()
