@@ -15,14 +15,14 @@
 
 import pandas
 
-# data = pandas.read_csv('weather-data.csv')
+data = pandas.read_csv('weather-data.csv')
 # temp_list = data['temp'].to_list()
 # print(data['temp'].mean())
 # print(data['temp'].max())
 # print(data[data.temp == data.temp.max()])
 
-# monday = data[data.day == "Monday"]
-# print(monday.temp * 9/5 + 32)
+monday = data[data.day == "Monday"]
+print(monday.temp * 9/5 + 32)
 
 
 # data_dict = {
@@ -32,14 +32,14 @@ import pandas
 # data = pandas.DataFrame(data_dict)
 # data.to_csv('new_data.csv')
 
-data = pandas.read_csv('2018-Central-Park-Squirrel-Census-Squirrel-Data.csv')
-gray_count = data[data['Primary Fur Color'] == "Gray"].__len__()
-cinnamon_count = data[data['Primary Fur Color'] == "Cinnamon"].__len__()
-black_count = data[data['Primary Fur Color'] == "Black"].__len__()
-
-data_dict = {
-    'Primary Fur Color':["Gray" , "Cinnamon" , "Black"],
-    'Count':[gray_count , cinnamon_count , black_count]
-}
-data = pandas.DataFrame(data_dict)
-data.to_csv('colors_count.csv')
+# data = pandas.read_csv('2018-Central-Park-Squirrel-Census-Squirrel-Data.csv')
+# gray_count = data[data['Primary Fur Color'] == "Gray"].__len__()
+# cinnamon_count = data[data['Primary Fur Color'] == "Cinnamon"].__len__()
+# black_count = data[data['Primary Fur Color'] == "Black"].__len__()
+#
+# data_dict = {
+#     'Primary Fur Color':["Gray" , "Cinnamon" , "Black"],
+#     'Count':[gray_count , cinnamon_count , black_count]
+# }
+# data = pandas.DataFrame(data_dict)
+# data.to_csv('colors_count.csv')
