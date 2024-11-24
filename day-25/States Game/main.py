@@ -26,5 +26,6 @@ while game_is_continue:
         number_guessed += 1
     elif answer_state == "Exit":
         game_is_continue = False
+        screen.bye()
 
 screen.mainloop()
