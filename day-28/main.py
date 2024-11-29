@@ -21,7 +21,7 @@ def reset_timer():
     timer_label.config(text="Timer")
     check_mark_label.config(text="")
     global reps
-    reps == 0
+    reps = 0
 
 
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
