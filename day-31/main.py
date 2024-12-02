@@ -11,29 +11,29 @@ except FileNotFoundError:
 
 words_dic = to_dict(data, orient='records')
 
-
 current_card = {}
 
 
 def change_word():
-    global current_card , flip_timer
+    global current_card, flip_timer
     window.after_cancel(flip_timer)
-    current_card= choice(words_dic)
-    canvas.itemconfig(card_word, text=current_card['French'] , fill = "black")
+    current_card = choice(words_dic)
+    canvas.itemconfig(card_word, text=current_card['French'], fill="black")
     canvas.itemconfig(canvas_image, image=fr_img)
-    canvas.itemconfig(title, text ="French" , fill = "black")
-    flip_timer = window.after(3000 , flip_card)
+    canvas.itemconfig(title, text="French", fill="black")
+    flip_timer = window.after(3000, flip_card)
 
 
 def flip_card():
-    canvas.itemconfig(title, text = "English" , fill = "white")
-    canvas.itemconfig(card_word, text=current_card['English'] , fill = "white")
+    canvas.itemconfig(title, text="English", fill="white")
+    canvas.itemconfig(card_word, text=current_card['English'], fill="white")
     canvas.itemconfig(canvas_image, image=en_img)
+
 
 def is_known():
     words_dic.remove(current_card)
     remining_words = pandas.DataFrame(words_dic)
-    remining_words.to_csv('data/to_learn' , index = False)
+    remining_words.to_csv('data/to_learn', index=False)
     change_word()
 
 
@@ -52,15 +52,10 @@ en_img = PhotoImage(file="images/card_back.png")
 
 canvas_image = canvas.create_image(0, 0, image=fr_img, anchor='nw')
 
-
-
 canvas.grid(row=0, column=0, columnspan=2)
 
 title = canvas.create_text(400, 150, text="", font=("Arial", 40, "italic"))
 card_word = canvas.create_text(400, 263, text="", font=("Arial", 60, "bold"))
-
-
-
 
 wrong_img = PhotoImage(file="images/wrong.png")
 right_img = PhotoImage(file="images/right.png")
