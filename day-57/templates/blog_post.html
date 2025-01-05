@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .post-id {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .content {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    {% for post in posts %}
+    {% if post.id ==2 %}
+    <div class="container">
+        <h1>{{ post.title }}</h1>
+        <div class="post-id">ID: {{ post.id }}</div>
+        <div class="content">
+            <p>{{ post.body }}</p>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <footer>
+        <p>&copy; {{}} My Blog</p>
+    </footer>
+</body>
+</html>
